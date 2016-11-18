@@ -1,6 +1,15 @@
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 10px;
+	background: #ffdf00;
+	margin: 8%;
+	float: left;
+}
+
 body {
 	text-align: center;
-	font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -24,13 +33,12 @@ h3 {
 	padding: 20px;
 }
 
-nav {
-	background-color: #808080;
+h1, h2, h3, p {
+	text-align: center;
 }
 
-footer {
-	background:#808080;
-	color: #FFFFFF;
+nav {
+	background-color: #808080;
 }
 
 a {
@@ -46,25 +54,14 @@ a:hover {
 	background-color: #ee5f3c;
 }
 
+
 .name {
 	color: #ff69b4;
 }
-
-
 #game-board {
 	height: 50%;
 	width: 50%;
 	display: inline-block;
-}
-
-.card {
-	height: 200px;
-	width: 150px;
-	border: 1px solid rgb(0, 0, 0);
-	border-radius: 10px;
-	background: #ffdf00;
-	margin: 8%;
-	float: left;
 }
 
 .clearfix:after {
@@ -78,5 +75,15 @@ a:hover {
 
 .heart {
 	color: #8A0707;
+}
+
+footer {
+	background:#808080;
+	color: #FFFFFF;
+}
+
+img {
+	height: 200px;
+	width: 150px;
 }
 
